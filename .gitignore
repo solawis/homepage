@@ -1,0 +1,4 @@
+*.swp
+main.css
+node_modules
+.directory
