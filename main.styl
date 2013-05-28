@@ -1,0 +1,86 @@
+@import 'nib'
+
+$green = #165317
+
+html, body
+  padding 0
+  margin 0
+  color #fff
+  font-family sans-serif
+  background $green
+
+footer
+  min-width 100%
+  text-align center
+  padding 0.5em
+  padding-top 2em
+  background-image linear-gradient(top, $green, #09420a, #3a3104, #2d2601)
+  font-weight bold
+  position fixed
+  bottom 0
+  font-variant small-caps
+  letter-spacing 5px
+
+#banner
+  min-width 100%
+
+#banner_top, #banner_bottom
+  background-repeat no-repeat
+  background-position-x center
+
+#banner_top
+  background-color #fff
+  background-image url("wild_wildlife_top.jpg")
+  height 200px
+
+#banner_bottom
+  background-image url("wild_wildlife_bottom.jpg")
+  height 140px
+  background-color $green
+
+#logo
+  position relative
+  left 212px
+  top 20px
+
+#content
+  margin auto
+  min-width 800px
+  max-width 1000px
+  padding-left 1em
+  padding-right 1em
+  color #fff
+
+  h1
+    font-size 1.4em
+
+  h2
+    font-size 1.3em
+
+  h3
+    font-size 1.0em
+
+  span
+    font-weight bold
+
+  p
+    font-size 0.9em
+
+  nav
+    top -90px
+    right 20px
+    list-style none
+    float right
+    font-size 1.2em
+    text-align right
+    font-weight bold
+    position relative
+    margin-left 2em
+
+    a
+      text-decoration none
+      color #fff
+
+  article
+    column-count 2
+    column-gap 4em
